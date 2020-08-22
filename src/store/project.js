@@ -22,5 +22,7 @@ const slice = createSlice({
         }
     }
 });
+
+// const projectsReducer = slice.reducer
 export default slice.reducer;
 export const {add, remove, complete} = slice.actions;
